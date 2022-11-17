@@ -158,7 +158,7 @@ const transferCoin = {
             in:"path",
             description:"id of the user",
             type:"ObjectId",
-            example:"6374d6413de321b04ecf319b"
+            example:"6375286a0a0c38e688c0d8e8"
         }
     ],
     responses:{

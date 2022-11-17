@@ -6,6 +6,7 @@ require("dotenv/config");
 const swaggerUI = require("swagger-ui-express");
 
 const swaggerDocumentation = require("./helper/documentation")
+//http://localhost:3000/api-docs/
 app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocumentation));
 
 const bodyParser = require("body-parser")
